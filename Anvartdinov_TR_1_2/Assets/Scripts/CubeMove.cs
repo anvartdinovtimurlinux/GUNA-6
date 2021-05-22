@@ -11,7 +11,7 @@ public class CubeMove : MonoBehaviour
     {
         if (isMoveZ)
         {
-            transform.position += new Vector3(0, 0, moveValue) * Time.deltaTime;
+            transform.position += new Vector3(0, 0, MOVE_VALUE) * Time.deltaTime;
         }
     }
 }
