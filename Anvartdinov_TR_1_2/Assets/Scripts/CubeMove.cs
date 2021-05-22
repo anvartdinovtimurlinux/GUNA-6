@@ -4,7 +4,7 @@ public class CubeMove : MonoBehaviour
 {
     public bool isMoveZ;
 
-    const float moveValue = 2;
+    const float MOVE_VALUE = 2;
 
     // Update is called once per frame
     void Update()
